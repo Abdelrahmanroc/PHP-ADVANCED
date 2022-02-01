@@ -3,8 +3,17 @@
 <body>
 
 <?php
-$student = array ("Abdelrahman", "Mohamed", "LCTSDO1C", "23 jaar");
-echo "<li>$student[0]</li><li>$student[1]</li><li>$student[2]</li><li>$student[3]</li>";
+$student = array ("voornaam"=>"Abdelrahman","achternaam"=>"Mohamed","Klas"=>"LCTSDO1C","leeftijd"=>"23");
+echo "gegevens Abdelrahman Mohamed:";
+echo "<br>";
+echo "voornaam :" . $student["voornaam"];
+echo "<br>";
+echo "achternaam :" . $student["achternaam"];
+echo "<br>";
+echo "Klas :" . $student["Klas"];
+echo "<br>";
+echo "leeftijd :" . $student["leeftijd"] ."jaar";
+echo "<br>";
 ?>
 
 </body>
