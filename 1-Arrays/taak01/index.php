@@ -3,21 +3,12 @@
 <body>
 
 <?php
-$student = array ("voornaam"=>"Abdelrahman","achternaam"=>"Mohamed","Klas"=>"LCTSDO1C","leeftijd"=>"23");
-echo "gegevens Abdelrahman Mohamed:";
-echo "<br>";
+$persoon["voornaam"]   = "Abdelrahman";
+$persoon["achternaam"] = "Mohamed";
+$persoon["leeftijd"]   = 23;
+$persoon["klas"]  = "1C";
 
-echo "voornaam :" . $student["voornaam"];
-echo "<br>";
-
-echo "achternaam :" . $student["achternaam"];
-echo "<br>";
-
-echo "Klas :" . $student["Klas"];
-echo "<br>";
-
-echo "leeftijd :" . $student["leeftijd"] ."jaar";
-echo "<br>";
+echo $persoon['voornaam']. " " . $persoon['achternaam']. " is " .  $persoon['leeftijd']. " jaar oud" .  " en ik zit in klas " . $persoon['klas'] ;
 
 ?>
 
