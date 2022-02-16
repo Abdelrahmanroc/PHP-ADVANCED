@@ -21,17 +21,13 @@ $gegevens = array(
     "Sport" => "Zwemen en Voetballen<br>"
 );
 
-function maakRij($key, $value){
+foreach ($gegevens as $keys => $value) {
     echo "<body style=background-color:" . $_POST['color2'] . ">
     <tr>
-    <th style=padding:" . $_POST['padding'] . "px> <p style=color:" . $_POST['color'] . ">" . $key . "</p> </th>
+    <th style=padding:" . $_POST['padding'] . "px> <p style=color:" . $_POST['color'] . ">" . $keys . "</p> </th>
     <th style=padding:" . $_POST['padding'] . "px> <p style=color:" . $_POST['color'] . ">" . $value . "</p> </th>
     </tr>";
-
 }
-foreach ($gegevens as $keys => $values) {
-    maakRij($keys, $values);
-    }
 
 echo "</table>";
 ?>
