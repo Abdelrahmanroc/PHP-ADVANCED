@@ -8,10 +8,10 @@
 </head>
 <body>
 <center>
-    <h3 style=text-align:center>Abdelrahman Mohaned Eindopdracht</h3>
+    <h3 style=text-align:center>Abdelrahman Mohaned Eindopdracht 2</h3>
 
 
-    <form name="invoer" action="advanced-2.php" method="post">
+    <form name="invoer" action="advanced-2-deel2.php" method="post">
 
 <p>Text kleur: </p>
 <select name="color">
