@@ -24,8 +24,8 @@ $gegevens = array(
 function maakRij($key, $value){
     echo "<body style=background-color:" . $_POST['color2'] . ">
     <tr>
-    <th style=padding:" . $_POST['padding'] . "px> <p style=color:" . $_POST['color'] . ">" . $key . "</p> </th>
-    <th style=padding:" . $_POST['padding'] . "px> <p style=color:" . $_POST['color'] . ">" . $value . "</p> </th>
+    <td style=padding:" . $_POST['padding'] . "px> <p style=color:" . $_POST['color'] . ">" . $key . "</p> </td>
+    <td style=padding:" . $_POST['padding'] . "px> <p style=color:" . $_POST['color'] . ">" . $value . "</p> </td>
     </tr>";
 
 }

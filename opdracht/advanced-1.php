@@ -10,7 +10,6 @@
 <center>
     <h3 style=text-align:center>Abdelrahman Mohaned Eindopdracht</h3>
 
-
     <form name="invoer" action="advanced-2.php" method="post">
 
 <p>Text kleur: </p>
